@@ -1,0 +1,102 @@
+{
+  "bikes": [
+    {
+      "id": 1,
+      "model": "Royal Enfield Meteor 350",
+      "color": "blue",
+      "location": "New Delhi",
+      "isAvailable": "true",
+      "avgRating": "4.5"
+    },
+    {
+      "id": 2,
+      "model": "model2",
+      "color": "color2",
+      "location": "location2",
+      "isAvailable": "true",
+      "avgRating": "3.5"
+    },
+    {
+      "model": "Honda Hornet 2.0",
+      "color": "Red",
+      "location": "Bhubaneswar",
+      "avgRating": "4",
+      "isAvailable": "true",
+      "id": 4
+    },
+    {
+      "model": "BMW S 1000",
+      "color": "Black",
+      "location": "Mumbai",
+      "avgRating": "5",
+      "isAvailable": "true",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "user@gmail.com",
+      "password": "user123"
+    }
+  ],
+  "reservations": [
+    {
+      "startTime": "12:02",
+      "endTime": "01:30",
+      "bikeId": "4",
+      "bikeModel": "Honda Hornet 2.0",
+      "status": "active",
+      "id": 5
+    },
+    {
+      "startTime": "02:40",
+      "endTime": "04:51",
+      "bikeId": "1",
+      "bikeModel": "Royal Enfield Meteor 350",
+      "status": "active",
+      "id": 6
+    },
+    {
+      "startTime": "07:20",
+      "endTime": "06:45",
+      "bikeId": "4",
+      "bikeModel": "Honda Hornet 2.0",
+      "status": "active",
+      "id": 7
+    },
+    {
+      "startTime": "",
+      "endTime": "",
+      "bikeId": "5",
+      "bikeModel": "BMW S 1000",
+      "status": "active",
+      "id": 8
+    },
+    {
+      "startTime": "14:10",
+      "endTime": "15:10",
+      "bikeId": "5",
+      "bikeModel": "BMW S 1000",
+      "status": "active",
+      "id": 9
+    },
+    {
+      "startTime": "00:36",
+      "endTime": "01:38",
+      "bikeId": "4",
+      "bikeModel": "Honda Hornet 2.0",
+      "status": "active",
+      "id": 10
+    },
+    {
+      "startTime": "2022-05-18",
+      "endTime": "2022-05-20",
+      "bikeId": "4",
+      "bikeModel": "Honda Hornet 2.0",
+      "status": "active",
+      "id": 11
+    }
+  ]
+}
